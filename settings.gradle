@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+
+include 'exampleProducer'
+include 'exampleProcessor'
+include 'exampleSink'

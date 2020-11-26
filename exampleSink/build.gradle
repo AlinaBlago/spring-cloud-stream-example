@@ -1,0 +1,13 @@
+dependencies {
+    implementation( group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.4.0')
+    implementation( group: 'org.springframework.cloud', name: 'spring-cloud-stream', version: '3.0.10.RELEASE')
+    implementation( group: 'org.springframework.cloud', name: 'spring-cloud-stream-binder-kafka', version: '3.0.10.RELEASE')
+    implementation( group: 'org.springframework.cloud', name: 'spring-cloud-stream-binder-kafka-streams', version: '3.0.10.RELEASE')
+    implementation( group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: '2.4.0')
+    implementation( group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.4.0')
+    implementation( group: 'org.postgresql', name: 'postgresql', version: '42.2.5')
+    implementation( group: 'org.hibernate', name: 'hibernate-core', version: '5.4.24.Final')
+    implementation( group: 'com.zaxxer', name: 'HikariCP', version: '3.4.5')
+    implementation( group: 'org.hibernate', name: 'hibernate-hikaricp', version: '5.4.24.Final')
+
+}
