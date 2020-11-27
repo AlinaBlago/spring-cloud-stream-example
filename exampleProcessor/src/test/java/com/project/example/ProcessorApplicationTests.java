@@ -16,11 +16,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ExampleApplicationTests.ProcessorService.class, webEnvironment = SpringBootTest.WebEnvironment.NONE, properties = {
+@SpringBootTest(classes = ProcessorApplicationTests.ProcessorService.class, webEnvironment = SpringBootTest.WebEnvironment.NONE, properties = {
 		"--spring.cloud.stream.bindings.input.contentType=text/plain",
 		"--spring.cloud.stream.bindings.output.contentType=text/plain" })
 @DirtiesContext
-public class ExampleApplicationTests {
+public class ProcessorApplicationTests {
 	@Autowired
 	private MessageCollector collector;
 

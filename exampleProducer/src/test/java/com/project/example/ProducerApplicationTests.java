@@ -18,7 +18,7 @@ import static org.springframework.cloud.stream.test.matcher.MessageQueueMatcher.
         webEnvironment = SpringBootTest.WebEnvironment.NONE,
         properties = "spring.cloud.stream.poller.fixed-delay=1")
 @DirtiesContext
-public class ExampleApplicationTests {
+public class ProducerApplicationTests {
 
     @Autowired
     private Source channels;

@@ -11,7 +11,6 @@ dependencies {
     implementation( group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.4.0')
     testImplementation( group: 'org.springframework.cloud', name: 'spring-cloud-stream-test-support', version: '3.0.10.RELEASE')
     testImplementation( group: 'org.springframework.kafka', name: 'spring-kafka-test', version: '2.6.3')
-// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator
     testImplementation( group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.4.0')
 
 
