@@ -1,4 +1,14 @@
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test_database
+    username: postgres
+    password: 1234
+    initialization-mode: always
+    continue-on-error: true
   cloud:
     stream:
       kafka:
@@ -9,3 +19,7 @@ spring:
           destination: modified_values
           binder: kafka
           group: example-group45
+
+
+
+
