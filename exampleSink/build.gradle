@@ -9,5 +9,6 @@ dependencies {
     implementation( group: 'org.hibernate', name: 'hibernate-core', version: '5.4.24.Final')
     implementation( group: 'com.zaxxer', name: 'HikariCP', version: '3.4.5')
     implementation( group: 'org.hibernate', name: 'hibernate-hikaricp', version: '5.4.24.Final')
-
+    testImplementation( group: 'org.springframework.cloud', name: 'spring-cloud-stream-test-support', version: '3.0.10.RELEASE')
+    testImplementation( group: 'org.springframework.kafka', name: 'spring-kafka-test', version: '2.6.3')
 }

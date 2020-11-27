@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
 
 @EnableBinding(Sink.class)
-@Service
 public class ConsumerService {
     private final MessageRepository messageRepository;
     private Logger logger = LoggerFactory.getLogger(ConsumerService.class);
